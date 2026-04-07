@@ -1,0 +1,130 @@
+.landing-section {
+    display: flex;
+    justify-content: space-between;
+    align-items: flex-start; 
+    height: 800px;  
+}
+
+.left-landing {
+    display: flex;
+    flex-direction: column;    
+    width: 100%;
+    height: 100%;                      
+}
+
+.left-landing img {
+    padding-top: 150px;
+    padding-left: 190px;
+    padding-bottom: 50px;
+    width: 350px;
+    height: auto; 
+}
+
+.left-landing h3 {
+    text-align: center;
+    color: #004D36;
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+
+.first-image {
+    padding-top: 60px;
+    padding-right: 80px;
+    height: 800px;
+}
+
+.first-image img {                      
+    border: 5px #004D36 solid;
+}
+
+.intro-section {
+    display: flex;
+    height: 860px;           
+    background-color:#262F4C;
+    width: 100%;
+}
+
+.intro-text {
+    flex: 1; 
+    padding-top: 250px;
+}
+
+.intro-text h3 {
+    color: #FFFBF6;
+    margin-bottom: 10px;
+    padding-left: 85px;
+    padding-right: 92px;
+}
+
+.intro-text p {
+    line-height: 1.8;       
+    padding-left: 85px;
+    padding-right: 92px;
+    color: #FFFBF6;
+}
+
+.review-section {
+    display: flex;
+    height: 860px;
+    width: 100%;
+}
+
+.review-text {
+    flex: 1;
+    background-color: #262F4C;
+    color: #FFFBF6;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.review-text h3 {
+    margin-bottom: 10px;
+    margin-top: 50px;
+    padding-left: 85px;
+    padding-right: 92px;
+}
+
+.review-point {
+    font-weight: 500;
+    color: #D2EAFF;
+}
+
+.review-text p {
+    line-height: 1.8; 
+    margin-bottom: 25px;
+    padding-left: 85px;
+    padding-right: 92px;
+    margin-bottom: -2px;
+    font-size: 17px;
+}
+
+.images-text {
+    flex: 1;
+    width: 100%;
+    background-color: #FFFBF6;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.image-grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr; 
+    width: 100%;
+}
+
+.image-grid img {
+    display: block;
+}
+
+.float-text {
+    font-family: "Playfair Display", serif;
+    font-optical-sizing: auto;
+    font-weight: 500;
+    color: #004D36;
+    font-size: 25px;
+    line-height: 1.5; 
+    max-width: 200px;
+}

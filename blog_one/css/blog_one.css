@@ -1,0 +1,41 @@
+#shakespeare-image {
+    flex: 1;
+}
+
+#shakespeare-image img {
+    width: 100%;               
+    height: 860px;            
+    object-fit: cover;
+}
+
+#bouquinistes-image {
+    grid-column: 2 / 4; 
+    grid-row: 2;
+}
+
+#notre-souvenirs-image {
+    grid-column: 1 / 3; 
+    grid-row: 1;
+}
+
+.quote {
+    grid-column: 3 / 4;
+    grid-row: 1;
+    padding-top: 100px;
+}
+
+.price {
+    grid-column: 1 / 2; 
+    grid-row: 2;
+    text-align: left;
+    padding-left: 40px;
+    padding-top: 200px;
+}
+
+.image-grid img {
+    width: 400px;
+    height: 400px;
+    display: block;
+    padding-left: 20px;
+    padding-top: 10px;
+}
