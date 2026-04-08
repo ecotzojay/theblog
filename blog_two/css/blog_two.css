@@ -29,22 +29,25 @@
     grid-column: 1 / 4;
     grid-row: 3;
     justify-self: center;
-    margin-right: -150px;
-    margin-top: -360px;
+    margin-right: -40px;
+    margin-top: -330px;
 }
 
 .quote {
     grid-column: 2 / 4;
     grid-row: 2;
-    margin-bottom: 370px;
-    margin-left: 140px;
+    text-align: left; 
+    align-self: center;
+    margin-bottom: 340px;
+    margin-left: 190px;
+    padding-right: 50px;
 }
 
 .price {
     grid-column: 1 / 3;
     grid-row: 1;
     align-self: start;
-    margin-top: 40px;
+    margin-top: 20px;
     margin-left: 90px;
 }
 
@@ -54,3 +57,4 @@
     height: 300;      
     object-fit: cover; 
 }
+

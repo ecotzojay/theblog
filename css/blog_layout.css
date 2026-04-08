@@ -121,10 +121,8 @@
 
 .float-text {
     font-family: "Playfair Display", serif;
-    font-optical-sizing: auto;
     font-weight: 500;
     color: #004D36;
     font-size: 25px;
     line-height: 1.5; 
-    max-width: 200px;
 }
