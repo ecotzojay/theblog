@@ -17,7 +17,7 @@ h1 {
     font-weight: 400;
     font-style: normal;
     font-size: 110px;
-    color: #262F4C;
+    color: #004D36;
 }
 
 h2 {
@@ -83,7 +83,12 @@ h2 {
     line-height: 25px;
 }
 
-.emmily-intro h3, .emmily-intro p {
+.emmily-intro h3 {
+    color: #004D36;
+    line-height: 0.1;
+}
+
+.emmily-intro p {
     color: #262F4C;
     line-height: 0.1;
 }

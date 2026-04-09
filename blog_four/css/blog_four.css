@@ -1,11 +1,3 @@
-.review-text {
-    background-color: #004D36;
-}
-
-.intro-section {        
-    background-color:#004D36;
-}
-
 #souvenirs-wall {
     flex: 1;
 }
@@ -57,12 +49,4 @@
     display: block;
     padding-left: 20px;
     padding-top: 10px;
-}
-
-.review-point {
-    color: #BDFFBE;
-}
-
-footer {
-    background-color:#262F4C;
 }

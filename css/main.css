@@ -55,9 +55,12 @@ p {
 }
 
 .main-nav a:hover {
-    color: #ffffff;
+    color: #BDFFBE;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    font-weight: 200;
+    font-style: normal;
     transform: scale(1.2);
-    text-shadow: 0px 0px 12px rgba(255, 255, 255, 0.5);  
 }
 
 footer {
