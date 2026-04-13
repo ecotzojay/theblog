@@ -7,17 +7,18 @@
 
 .left-landing {
     display: flex;
-    flex-direction: column;    
+    flex-direction: column;  
+    align-items: center;    
+    justify-content: center;
     width: 100%;
-    height: 100%;                      
+    height: 100%;                     
 }
 
 .left-landing img {
-    padding-top: 150px;
-    padding-left: 190px;
-    padding-bottom: 50px;
     width: 350px;
     height: auto; 
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 
 .left-landing h3 {

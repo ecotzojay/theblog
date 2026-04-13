@@ -35,28 +35,71 @@
     margin-top: -280px;
 }
 
-.quote {
-    grid-column: 1 / 2;
-    grid-row: 2;
-    margin-bottom: 340px;
-    margin-left: 40px;
-    padding-right: 60px;
-    padding-top: 30px;
-    align-self: center;
-    text-align: left;
-}
-
-.price {
-    grid-column: 3 / 4;
-    grid-row: 3;
-    margin-top: -110px;
-    margin-left: -100px;
-    align-self: start;
-}
-
 .image-grid img {
     display: block;
-    width: auto;
-    height: 300;      
-    object-fit: cover; 
+}
+
+#candies-image {
+    grid-column: 1 / 3;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    margin-top: -100px;
+    margin-left: 30px;
+}
+
+#candies-image img {
+    width: 287px;
+    height: 383px;
+}
+
+#shirts-image {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    justify-self: center;
+    align-self: center;
+    margin-left: 350px;
+    margin-top: -200px;
+}
+
+#shirts-image img {
+    width: 286px;
+    height: 244px;
+}
+
+#night-image {
+    grid-column: 2 / 4;
+    grid-row: 3;
+    justify-self: center;
+    align-self: center;
+    margin-bottom: -40px;
+    margin-left: 80px;
+}
+
+#night-image img { 
+    width: 409px;
+    height: 370px;  
+}
+
+#big-sign {
+    grid-column: 1 / 3;
+    grid-row: 2;
+    margin-left: 20px;
+}
+
+#big-sign img {
+    width: 268px;
+    height: 233px;
+}
+
+#small-sign {
+    grid-column: 2 / 4;
+    grid-row: 1;
+    margin-top: 150px;
+    margin-left: 180px;
+}
+
+#small-sign img {
+    width: 297px;
+    height: 260px;
 }

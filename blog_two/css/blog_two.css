@@ -8,53 +8,72 @@
     object-fit: cover;
 }
 
-#magnets-image {
-    grid-column: 2 / 4;
-    grid-row: 1;
-    justify-self: center;
-    margin-bottom: -20px;
-    margin-left: 120px;
+.image-grid img {
+    display: block;
 }
 
-#postcards-image {
-    grid-column: 1 / 3;
+#magnets-image {
+    grid-column: 1 / 2;
     grid-row: 2;
     justify-self: center;
     align-self: center;
-    margin-right: 100px;
-    margin-top: -600px;
+    margin-top: -50px;
+}
+
+#magnets-image img {
+    width: 293px;
+    height: 327px;
+}
+
+#postcards-image {
+    grid-column: 3 / 4;
+    grid-row: 1 / 3;
+    justify-self: center;
+    align-self: center;
+    margin-top: -200px;
+    margin-right: 10px;
+
+}
+
+#postcards-image img {
+    width: 340px;
+    height: 324px;
 }
 
 #mirrors-image {
     grid-column: 1 / 4;
     grid-row: 3;
     justify-self: center;
-    margin-right: -40px;
-    margin-top: -330px;
-}
-
-.quote {
-    grid-column: 2 / 4;
-    grid-row: 2;
-    text-align: left; 
     align-self: center;
-    margin-bottom: 340px;
-    margin-left: 190px;
-    padding-right: 50px;
+    margin-top: 10px;
 }
 
-.price {
-    grid-column: 1 / 3;
+#mirrors-image img{
+    width: 411px;
+    height: 264px;
+}
+
+#big-sign {
+    grid-column: 3 / 4;
+    grid-row: 2;
+    align-self: end;
+    margin-top: 80px;
+}
+
+#big-sign img {
+    width: 268px;
+    height: 233px;
+}
+
+
+#small-sign {
+    grid-column: 1 / 2;
     grid-row: 1;
-    align-self: start;
-    margin-top: 20px;
-    margin-left: 90px;
+    margin-left: 60px;
 }
 
-.image-grid img {
-    display: block;
-    width: auto;
-    height: 300;      
-    object-fit: cover; 
+#small-sign img {
+    width: 297px;
+    height: 260px;
 }
 
