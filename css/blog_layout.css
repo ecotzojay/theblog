@@ -1,3 +1,4 @@
+/* Main landing area with a split layout */
 .landing-section {
     display: flex;
     justify-content: space-between;
@@ -5,6 +6,7 @@
     height: 800px;  
 }
 
+/* Container for the left side of the landing section */
 .left-landing {
     display: flex;
     flex-direction: column;  
@@ -21,6 +23,7 @@
     margin-bottom: 20px;
 }
 
+/* Heading style for the left landing column */
 .left-landing h3 {
     text-align: center;
     color: #004D36;
@@ -28,6 +31,7 @@
     margin-top: 0;
 }
 
+/* Specific styling for the hero image on the right */
 .first-image {
     padding-top: 60px;
     padding-right: 80px;
@@ -64,6 +68,7 @@
     color: #FFFBF6;
 }
 
+/* Section combining a text review and an image grid */
 .review-section {
     display: flex;
     height: 860px;
@@ -110,6 +115,7 @@
     justify-content: center;
 }
 
+/* Three-column grid for showcasing images */
 .image-grid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr; 
@@ -118,12 +124,4 @@
 
 .image-grid img {
     display: block;
-}
-
-.float-text {
-    font-family: "Playfair Display", serif;
-    font-weight: 500;
-    color: #004D36;
-    font-size: 25px;
-    line-height: 1.5; 
 }

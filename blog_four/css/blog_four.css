@@ -26,6 +26,7 @@
     justify-self: center;
     align-self: center;
     margin-top: 20px;
+    margin-left: 80px;
 }
 
 #bracelets-image img {
@@ -52,6 +53,8 @@
     grid-column: 3;
     grid-row: 2;
     margin-top: 30px;
+    margin-right: 50px;
+    z-index: 1;
 }
 
 #small-sign img {
