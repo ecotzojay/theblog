@@ -67,6 +67,38 @@ p {
     transform: scale(1.2);
 }
 
+/* --- Back to Top Button --- */
+.to-top-button {
+    position: fixed;
+    bottom: 90px;
+    right: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    z-index: 1000;
+    transition: all 0.3s ease;
+
+    opacity: 0;
+    pointer-events: none; 
+    transform: translateY(20px);
+}
+
+.to-top-button.show {
+    opacity: 1;
+    pointer-events: auto;
+    transform: translateY(0);
+}
+
+.to-top-button img {
+    width: 70px;
+    height: auto;
+}
+
+.to-top-button:hover {
+    transform: translateY(-10px);
+}
+
 /* Footer styling */
 footer {
     background-color: #004D36;
