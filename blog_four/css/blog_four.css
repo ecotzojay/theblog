@@ -41,24 +41,24 @@
     grid-column: 1;
     grid-row: 1;
     margin-left: 50px;
-    margin-top: 150px;
+    margin-top: 170px;
 }
 
 #big-sign img {
-    width: 268px;
-    height: 233px;
+    width: 218px;
+    height: 183px;
 }
 
 #small-sign {
     grid-column: 3;
     grid-row: 2;
-    margin-top: 30px;
-    margin-right: 50px;
+    margin-top: 60px;
+    margin-right: 70px;
     z-index: 1;
 }
 
 #small-sign img {
-    width: 297px;
-    height: 260px;
+    width: 247px;
+    height: 210px;
 }
 

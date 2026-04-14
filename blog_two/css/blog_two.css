@@ -17,7 +17,8 @@
     grid-row: 2;
     justify-self: center;
     align-self: center;
-    margin-top: -50px;
+    margin-top: -10px;
+    margin-left: 50px;
 }
 
 #magnets-image img {
@@ -45,7 +46,7 @@
     grid-row: 3;
     justify-self: center;
     align-self: center;
-    margin-top: 10px;
+    margin-top: 40px;
 }
 
 #mirrors-image img{
@@ -61,18 +62,18 @@
 }
 
 #big-sign img {
-    width: 268px;
-    height: 233px;
+    width: 218px;
+    height: 183px;
 }
 
 #small-sign {
     grid-column: 1 / 2;
     grid-row: 1;
-    margin-left: 60px;
+    margin-left: 70px;
 }
 
 #small-sign img {
-    width: 297px;
-    height: 260px;
+    width: 247px;
+    height: 210px;
 }
 
